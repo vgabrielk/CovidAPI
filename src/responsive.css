@@ -55,8 +55,8 @@
 
     .statistics
     {
-        margin: 2rem;
-        padding: 1rem;
+        margin: 2rem!important;
+        padding: 1rem!important;
     }
 }
 @media(max-width: 500px)

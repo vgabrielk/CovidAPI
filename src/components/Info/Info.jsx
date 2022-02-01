@@ -1,25 +1,32 @@
 
+import { useState, useEffect } from 'react';
 import Share from '../Share/Share';
 import './Info.css'
 
 
 const Info = ({news, setNews}) => {
+  const [input, setInput] = useState('')
+  const [output, setOutput] = useState([])
 
-const filterInfos = (e) =>{
-  const search = e.target.value.toLowerCase()
-  
-  const filteredInfos = news.filter( infos => infos.state.toLowerCase().includes(search))
-  setNews(filteredInfos)
-  console.log(search)
-}
-    
+  useEffect(()=>{
+
+        setOutput([])
+        news.filter(val => {
+          if(val.state.toLowerCase().includes(input.toLowerCase()))
+          {
+            setOutput(output => [...output, val]) 
+          }
+        })
+
+  },[input])
+
     return ( 
         <>
         <div className="input-area">
-            <input type="text" className='input-area_search' onChange={(e) => filterInfos(e) } placeholder='Buscar estado' name="" id=""  />
+            <input type="text" className='input-area_search' onChange={e => setInput(e.target.value)} placeholder='Buscar estado' name=""  id=""  />
             <i className="fas fa-search"></i>
         </div>
-               {news.map((index) => (
+               {output.map((index) => (
                    
           <div key={index.uid} className="statistic"  data-aos="fade">
             <Share/>

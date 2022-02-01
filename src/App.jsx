@@ -18,8 +18,8 @@ function App() {
   useEffect(() => {
     fetch('https://covid19-brazil-api.now.sh/api/report/v1')
       .then(res => res.json())
-      .then(data => console.log(data, setNews(data.data)));
-
+      .then(data => console.log(data, setNews(data.data)))
+      
       AOS.init({
         duration: 1000
       })

@@ -5,6 +5,7 @@ import './Info.css'
 
 
 const Info = ({news, setNews}) => {
+  const [search, setSearch] = useState(null) 
   const [input, setInput] = useState('')
   const [output, setOutput] = useState([])
 

@@ -41,7 +41,7 @@ function App() {
         
 
         </div>
-      <Info news={news} />
+      <Info news={news} setNews={setNews} />
 
       </div>
           <Footer/>

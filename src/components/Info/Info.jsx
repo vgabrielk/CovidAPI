@@ -3,13 +3,20 @@ import Share from '../Share/Share';
 import './Info.css'
 
 
-const Info = ({news}) => {
+const Info = ({news, setNews}) => {
 
+const filterInfos = (e) =>{
+  const search = e.target.value.toLowerCase()
+  
+  const filteredInfos = news.filter( infos => infos.state.toLowerCase().includes(search))
+  setNews(filteredInfos)
+  console.log(search)
+}
     
     return ( 
         <>
         <div className="input-area">
-            <input type="text" className='input-area_search' placeholder='Buscar estado' name="" id=""  />
+            <input type="text" className='input-area_search' onChange={(e) => filterInfos(e) } placeholder='Buscar estado' name="" id=""  />
             <i className="fas fa-search"></i>
         </div>
                {news.map((index) => (

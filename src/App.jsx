@@ -19,32 +19,32 @@ function App() {
     fetch('https://covid19-brazil-api.now.sh/api/report/v1')
       .then(res => res.json())
       .then(data => console.log(data, setNews(data.data)))
-      
-      AOS.init({
-        duration: 1000
-      })
+
+    AOS.init({
+      duration: 1000
+    })
 
   }, [])
 
 
   return (
     <>
-        <Nav />
+      <Nav />
       <div className="header-empty"></div>
-    <Home/>
+      <Home />
 
       <div className="statistics">
         <div className="statistics-title">
 
-        <h1 id='states'>Estados brasileiros
-        </h1>
-        
+          <h1 id='states'>Estados brasileiros
+          </h1>
+
 
         </div>
-      <Info news={news} setNews={setNews} />
+        <Info news={news} setNews={setNews} />
 
       </div>
-          <Footer/>
+      <Footer />
     </>
   );
 }

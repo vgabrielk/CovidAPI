@@ -86,7 +86,7 @@ b {
 }
 
 .input-area_search:focus~.fa-search {
-  transform: translateX(50px) !important;
+
   background-color: #006eff;
   color: #fff;
   box-shadow: 5px 5px 16px rgba(0, 0, 0, 0.507);

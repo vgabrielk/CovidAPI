@@ -24,13 +24,18 @@ const Info = ({ news }) => {
         <input type="text" className='input-area_search' onChange={e => setInput(e.target.value)}  placeholder='Buscar estado' name="" id="" />
         <i className="fas fa-search"></i>
       </div>
-     
-      {output.map(index => (
+
+      {input == '' ? null :
+      
+      output.map(index => (
         <>    
         
         <InfoBox key={index.uf} index={index} />
         </>
-      ))}
+      ))
+      
+      }
+   
       <h2 className="infobox-title">Todos os estados :</h2>
       {news.map(index => (
         <InfoBox key={index.uid} index={index} />

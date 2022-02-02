@@ -36,10 +36,6 @@ function App() {
       <div className="statistics">
         <div className="statistics-title">
 
-          <h1 id='states'>Estados brasileiros
-          </h1>
-
-
         </div>
         <Info news={news} setNews={setNews} />
 

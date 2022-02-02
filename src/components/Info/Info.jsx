@@ -4,7 +4,6 @@ import InfoBox from './InfoBox';
 
 
 const Info = ({ news }) => {
-  const [search, setSearch] = useState(null)
   const [input, setInput] = useState('')
   const [output, setOutput] = useState([])
 
@@ -19,7 +18,6 @@ const Info = ({ news }) => {
 
   }, [input])
 
-
   return (
     <>
       <div className="input-area">
@@ -28,12 +26,15 @@ const Info = ({ news }) => {
       </div>
      
       {output.map(index => (
-        <InfoBox index={index}/>
+        <>    
+        
+        <InfoBox key={index.uf} index={index} />
+        </>
       ))}
+      <h2 className="infobox-title">Todos os estados :</h2>
       {news.map(index => (
-        <InfoBox index={index}/>
+        <InfoBox key={index.uid} index={index} />
       ))}
-      
 
     </>
   );

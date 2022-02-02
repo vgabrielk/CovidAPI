@@ -1,10 +1,10 @@
 import Share from '../Share/Share'
 
-const InfoBox = ({index}) => {
+const InfoBox = ({index, title}) => {
     return ( 
 
         <>
-        <div key={index.uid} className="statistic" data-aos="fade">
+        <div className="statistic" data-aos="fade">
           <Share />
           <div className="statistic-title">
             <h2>{index.state}</h2>

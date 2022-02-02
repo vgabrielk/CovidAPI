@@ -91,3 +91,8 @@ b {
   color: #fff;
   box-shadow: 5px 5px 16px rgba(0, 0, 0, 0.507);
 }
+.infobox-title 
+{
+  color: #111;
+  margin: 2rem 0;
+}

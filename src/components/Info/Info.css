@@ -82,7 +82,7 @@ b {
 }
 
 .input-area .input-area_search:focus::-webkit-input-placeholder {
-  transform: translateX(-100px);
+  transform: translateX(-120px);
 }
 
 .input-area_search:focus~.fa-search {

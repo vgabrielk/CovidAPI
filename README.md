@@ -22,7 +22,7 @@
 **Libs:** AOS animate to scroll
 ## Autor
 
-##`Vitor Gabriel ®`
+`Vitor Gabriel`
 
 - [Github ](https://www.github.com/vgabrielk)
 - [Linkedin](https://www.linkedin.com/in/vitorfelix03/)

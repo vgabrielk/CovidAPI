@@ -1,6 +1,9 @@
 
 # Esse site tem dados reais da covid19!
 
+# Imagem 
+
+<img src="src/assets/img/imgst.png" alt='mask' />
 
 ## Sobre
 

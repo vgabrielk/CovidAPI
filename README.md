@@ -14,8 +14,6 @@
 - Número de óbitos
 - Número de suspeitas
 
-<img src="src/assets/img/imgst.png" alt='mask' />
-
 
 ## Stack utilizada
 

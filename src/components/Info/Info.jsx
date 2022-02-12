@@ -19,7 +19,7 @@ const Info = ({ news }) => {
         if (input === '') {
           return val;
         }
-        return val.state.toLowerCase().includes(input.toLowerCase())
+        return val.state.toLowerCase().includes(input.toLowerCase()) || val.uf.toLowerCase().includes(input.toLowerCase())
 
       }).map(index => (
         <div className="statistic" data-aos="fade">

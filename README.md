@@ -5,6 +5,7 @@
 
   <!-- <a href="https://coronabrr.netlify.app/">Demo</a> -->
 </div>
+<a href='https://coronabrr.netlify.app/'> Visualizar </a>
 
 <h1 align="center">Covid API</h1>
 

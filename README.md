@@ -1,4 +1,4 @@
-<div align="center" id="top"> 
+<div align="start" id="top"> 
   <img  width='480px' src="https://portfoliovfelix.netlify.app/static/media/covid.f0497ad3a4a2c75ceaeb.png" alt="Myportfolio" />
 
   &#xa0;

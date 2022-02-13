@@ -1,11 +1,11 @@
-<div align="start" id="top"> 
+<div align="center" id="top"> 
   <img  width='480px' src="https://portfoliovfelix.netlify.app/static/media/covid.f0497ad3a4a2c75ceaeb.png" alt="Myportfolio" />
 
   &#xa0;
 
   <!-- <a href="https://coronabrr.netlify.app/">Demo</a> -->
 </div>
-<div align='center'> 
+<div align='start'> 
 <a align='center' href='https://coronabrr.netlify.app/'> Visualizar </a>
 
 <h1 align="center">Covid API</h1>

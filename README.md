@@ -5,6 +5,8 @@
 
   <!-- <a href="https://coronabrr.netlify.app/">Demo</a> -->
 </div>
+<div align='start'> 
+<a align='center' href='https://coronabrr.netlify.app/'> Visualizar </a>
 
 <h1 align="center">Covid API</h1>
 
@@ -63,3 +65,5 @@ Desenvolvido com :heart: by <a href="https://github.com/vgabrielk" target="_blan
 &#xa0;
 
 <a href="#top">Back to top</a>
+	
+	</div>

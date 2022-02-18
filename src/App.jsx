@@ -39,7 +39,7 @@ function App() {
       }
     }
 
-    window.addEventListener('scroll', scrollPosition())
+    window.addEventListener('scroll', scrollPosition)
   }, [])
 
 

@@ -9,10 +9,20 @@
     z-index: 100;
     top: 0;
     transition: all ease .8s;
+    transform: translateY(-100px);
 }
 
-.headerHide {
-    transform: translateY(-100px);
+.headerHide{
+    height: 10vh;
+    width: 100vw;
+    background-color: #fafafa;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.212);
+    display: flex;
+    align-items: center;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    transition: all ease .8s;
 }
 
 .header-empty {

@@ -37,11 +37,9 @@ function App() {
       else {
         setHideNav(false)
       }
-
     }
 
-    window.addEventListener('scroll', scrollPosition)
-
+    window.addEventListener('scroll', scrollPosition())
   }, [])
 
 

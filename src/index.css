@@ -13,6 +13,12 @@ body {
   overflow-x: hidden;
 
 }
+body::-webkit-scrollbar
+{
+  background-color: #fafafa;
+  width: 6px;
+  border-radius: 12px;
+}
 
 a, li {
   text-decoration: none;

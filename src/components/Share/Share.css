@@ -6,16 +6,6 @@
 
 }
 
-.social-share {
-    display: flex;
-    margin-left: 1rem;
-}
-
-.social i {
-    font-size: 2rem;
-    cursor: pointer;
-
-}
 
 .button-share {
     width: 200px;
@@ -33,25 +23,4 @@
 
 .button-share:hover {
     transform: scale(1.1);
-}
-
-/* Social */
-.facebook, .whatsapp, .twitter {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: .5rem;
-}
-
-.facebook {
-    background-color: blue;
-}
-
-.whatsapp {
-    background-color: rgb(0, 255, 0);
-}
-
-.twitter {
-    background-color: #00aced;
-    color: #fff;
 }

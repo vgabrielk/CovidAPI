@@ -14,6 +14,7 @@ function App() {
 
 
   const [news, setNews] = useState([])
+  const [hideNav, setHideNav] = useState(false)
 
   useEffect(() => {
     fetch('https://covid19-brazil-api.now.sh/api/report/v1')
@@ -24,12 +25,29 @@ function App() {
       duration: 1000
     })
 
+
+  }, [])
+  useEffect(() => {
+
+    function scrollPosition() {
+
+      if (window.scrollY > 100) {
+        setHideNav(true)
+      }
+      else {
+        setHideNav(false)
+      }
+
+    }
+
+    window.addEventListener('scroll', scrollPosition)
+
   }, [])
 
 
   return (
     <>
-      <Nav />
+      <Nav hideNav={hideNav} />
       <div className="header-empty"></div>
       <Home />
 

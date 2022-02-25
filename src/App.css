@@ -35,3 +35,14 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
+.Dot img 
+{
+  animation: spin 3s infinite alternate;
+}
+
+@keyframes spin {
+  from {
+      transform: rotate(360deg);
+  }
+
+}

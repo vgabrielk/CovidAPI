@@ -5,7 +5,7 @@ import 'aos/dist/aos.css';
 import { useState, useEffect } from 'react'
 import Nav from './components/nav/Nav';
 
-import DotLoader from 'react-spinners/DotLoader'
+
 
 import AOS from 'aos';
 import Home from './components/Home/Home';
@@ -22,7 +22,7 @@ function App() {
     setLoading(true)
     setTimeout(() => {
       setLoading(false)
-    }, 1500)
+    }, 1000)
   }, [])
 
 
@@ -58,10 +58,7 @@ function App() {
     <>
       {loading ?
         <div className='Dot'>
-          <DotLoader
-            color='#006eff'
-            loading={loading}
-            size={50} />
+          <img width={100} src='https://www.un.org/sites/un2.un.org/files/covid-19.svg' alt="Covid-19 logo" />
         </div>
         :
         <>

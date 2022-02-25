@@ -4,13 +4,13 @@ import Button from '../../Button';
 
 
 const Home = () => {
-    return ( 
+    return (
 
-        <>  
+        <>
             <div className="home">
                 <div className="home-text">
-                    <h1>Estatísticas da covid-19 <br/> atualizadas em todos os estados do território nacional.  &#127463;&#127479;</h1>
-                    <Button/>
+                    <h1>Estatísticas da covid-19 <br /> atualizadas em todos os estados do território nacional.  &#127463;&#127479;</h1>
+                    <Button />
                 </div>
                 <div className="home-image">
                     <img src={Mask} alt="" />
@@ -18,7 +18,7 @@ const Home = () => {
             </div>
         </>
 
-     );
+    );
 }
- 
+
 export default Home;

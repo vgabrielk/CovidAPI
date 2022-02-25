@@ -1,23 +1,22 @@
-.home 
-{
+.home {
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
     margin: 5rem;
 }
-.home-text 
-{
+
+.home-text {
     width: 100%;
     margin-top: 2rem;
     color: #000;
 }
-.home-image 
-{
+
+.home-image {
     width: 100%;
     display: flex;
     justify-content: flex-end;
 }
-.home-image img 
-{
+
+.home-image img {
     width: 180px;
 }

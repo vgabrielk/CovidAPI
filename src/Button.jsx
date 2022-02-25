@@ -1,19 +1,19 @@
 const Button = () => {
 
-    const scrollTo = () =>{
+    const scrollTo = () => {
         window.scroll({
-            top:600,
-            behavior:'smooth'
+            top: 600,
+            behavior: 'smooth'
         })
     }
-    return ( 
+    return (
 
         <>
             <button onClick={scrollTo} className="button-app">
                 Ver estatísticas...
             </button>
         </>
-     );
+    );
 }
- 
+
 export default Button;

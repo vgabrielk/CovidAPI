@@ -10,12 +10,12 @@ const Info = ({ news }) => {
   return (
     <>
       <div className="input-area">
-        <input type="text" className='input-area_search'  onChange={e => setInput(e.target.value)} placeholder='Buscar estado' name="" id="" />
+        <input type="text" className='input-area_search' onChange={e => setInput(e.target.value)} placeholder='Buscar estado' name="" id="" />
         <i className="fas fa-search"></i>
       </div>
 
 
-    <InfoMap news ={news} input={input}/>
+      <InfoMap news={news} input={input} />
     </>
   );
 }
